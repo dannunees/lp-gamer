@@ -1,0 +1,24 @@
+header {
+    background-color: #1B2838;
+    padding: 32px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerItens {
+    display: flex;
+    align-items: center;
+}
+
+.headerBtns {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.headerBtns img {
+    cursor: pointer;
+}
