@@ -10,17 +10,17 @@ const Homepage = () => {
     return (
         <>
             <Header />
-            <Banner backgroundImage="src/assets/images/banner.png" icone="src/assets/images/red-dead.png" text="Estados Unidos, 1899. O fim da era do velho oeste começou, e as autoridades estão caçando as últimas gangues de fora da lei que restam. Os que não se rendem, nem sucumbem, são mortos." botao="COMPRE AGORA"/>
+            <Banner backgroundImage="/assets/images/banner.png" icone="/assets/images/red-dead.png" text="Estados Unidos, 1899. O fim da era do velho oeste começou, e as autoridades estão caçando as últimas gangues de fora da lei que restam. Os que não se rendem, nem sucumbem, são mortos." botao="COMPRE AGORA"/>
             <Categorias />
             <div className="container">
               <Input style={{marginBottom: '112px'}} placeholder="BUSCAR" />
             </div>
 
             <div className="container containerCards">
-                <Cards src="src/assets/images/farcry.png" />
-                <Cards src="src/assets/images/forza.png" />
-                <Cards src="src/assets/images/fifa.png" />
-                <Cards src="src/assets/images/minecraft.png" />
+                <Cards src="/assets/images/farcry.png" />
+                <Cards src="/assets/images/forza.png" />
+                <Cards src="/assets/images/fifa.png" />
+                <Cards src="/assets/images/minecraft.png" />
             </div>
             <Footer />
         </>
