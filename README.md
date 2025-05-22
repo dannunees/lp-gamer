@@ -1,9 +1,5 @@
 # 🎮 Landing Page Gamer com React
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![CSS Modules](https://img.shields.io/badge/CSS%20Modules-000?style=for-the-badge&logo=css3&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-
 Uma **Landing Page temática de games** desenvolvida com React. O layout destaca banners, cards de jogos, categorias e um input de busca — tudo com componentes reutilizáveis.
 
 ---
@@ -11,7 +7,7 @@ Uma **Landing Page temática de games** desenvolvida com React. O layout destaca
 ## 🧪 Tecnologias utilizadas
 
 - [React.js](https://reactjs.org/)
-- CSS Modules ou CSS tradicional (dependendo do seu setup)
+- CSS Modules
 - JSX
 - Imagens e recursos estáticos locais
 
@@ -23,7 +19,7 @@ Uma **Landing Page temática de games** desenvolvida com React. O layout destaca
 📦 src/
 ├── assets/
 │   └── images/          # Imagens como banner e thumbnails dos jogos
-├── components/
+├── components/          # Componentes utilizados no projeto
 │   ├── Header/
 │   ├── Footer/
 │   ├── Banner/
@@ -48,12 +44,6 @@ Uma **Landing Page temática de games** desenvolvida com React. O layout destaca
 
 ---
 
-## 📸 Preview
-
-> 💡 *Adicione um print da tela ou GIF demonstrando a página.*
-
----
-
 ## 🚀 Como rodar o projeto localmente
 
 1. Clone o repositório:
@@ -75,12 +65,6 @@ npm install
 npm run dev
 ```
 
-Ou, se estiver usando `create-react-app`:
-
-```bash
-npm start
-```
-
 4. Acesse no navegador:
 
 ```
@@ -89,21 +73,9 @@ http://localhost:3000
 
 ---
 
-## 💡 Melhorias futuras
+## 📸 Preview
 
-- Adicionar responsividade total com media queries ou Tailwind
-- Integrar busca real com backend ou filtro local
-- Criar rotas (React Router) para cada categoria
-- Melhorar a acessibilidade (alt text, foco, etc.)
-- Animar interações com `Framer Motion` ou `GSAP`
+Link do projeto em produção:
 
----
+https://lp-gamer.vercel.app/
 
-## 📝 Licença
-
-Este projeto foi feito com fins de estudo e portfólio.  
-Sinta-se à vontade para utilizar e modificar.
-
----
-
-Feito com 🎮 e 💻 por [Seu Nome](https://github.com/seu-usuario)
